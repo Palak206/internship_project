@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lato:wght@400;700;900&family=
+     Neonderthaw&family=Roboto+Condensed:wght@300;400;700&family=Smooch+Sans:wght@100;200&display=swap" rel="stylesheet"> -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    
+</head>
+<body>
+
+    <section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="eduford_img/images/logo.png" ></a>
+
+        <div class="nav-links" id="navLinks">
+            <!-- font icon -->
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="internship.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <!-- font icon -->
+        <i class="fa fa-bars"  onclick="showMenu()"></i>
+    </nav>
+    <h1>About Us</h1>
+    </section>
+
+
+<!-- --------about u section --------- -->
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>We are the India's Biggest Internships Opportunities</h1>
+            <p>RCED was found in 1995. RCED has expertise in conducting Skill and entrepreneurship 
+                development training programs and thereby help the beneficiaries tap suitable self/waged 
+                employment opportunities. We have experience of working with Central Ministries/ 
+                Departments, State Government Departments, All India Financial Institutions, Banks, 
+                Corporate and other Academic & Research Institutions.
+            </p>
+            <a href ="hero-btn red-btn">EXPLORE NOW</a>
+
+        </div>
+        <div class="about-col">
+            <img src="eduford_img/images/about.jpg">
+        </div>
+
+    </div>
+</section>
+
+         
+
+<!-- ------footer-------------- -->
+
+<section class="footer">
+    <h3><b>About Us</b></h3>
+    <p>just need to Sign in on learnandearn.guru many internships re there for u. 
+        lorem ipsum dolor sit amet , consectecular adipscing elit.<br>
+        lorem ipsum dolor sit amet , consectecular adipscing elit.</p>
+
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+            
+        </div>
+        <p>Made With <i class="fa fa-heart-o"></i> By learnandearn guru</p>
+</section>
+
+
+
+<!-- Javascript  for Toggle Menu-->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    
+    }
+
+</script>
+    
+</body>
+</html>

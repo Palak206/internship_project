@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lato:wght@400;700;900&family=
+     Neonderthaw&family=Roboto+Condensed:wght@300;400;700&family=Smooch+Sans:wght@100;200&display=swap" rel="stylesheet"> -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    
+</head>
+<body>
+
+    <section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="eduford_img/images/logo.png" ></a>
+
+        <div class="nav-links" id="navLinks">
+            <!-- font icon -->
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="internship.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <!-- font icon -->
+        <i class="fa fa-bars"  onclick="showMenu()"></i>
+    </nav>
+    <h1>Our Certificates & Online Programs For 2022</h1>
+    </section>
+
+<!-- ========blog page content -------------- -->
+<section class="blog-content">
+
+    <div class="row">
+        <div class="blog-left">
+            <img src="eduford_img/images/certificate.jpg">
+            <h2>Our Certificates & Online Programs For 2022</h2>
+            <p> BY the end of thi certification learners will understand core concept to all IT support jobs -
+                troubleshooting , cutomer-service, networking ,system adminstration,operating systems, and
+                 security. Know how to assemble a computer, write effective support documentation, route paths and subnets, 
+                 manage device  software, and more!Dive into working with Linux, Cloud Computing and Command-Line Interfaces.
+                 </p>
+                 <br>
+                 <p> Manage IT resources at scale, both for physical machines and virtual machines in
+                    the cloud Automate tasks by writing Python scripts Use Git and GitHub for version control.
+                     Analyze real-world IT problems and implement the appropriate strategies to solve those problems.
+                     </p>
+                     <br>
+                     <p>Crash Course on Python Using Python to Interact with the Operating Systems
+                        Operating System Introduction to Git and GitHub Troubleshooting and Debugging
+                        Techniques Configuration Management and the Cloud Automating Real-World Tasks with Python
+                         </p>
+                         <br>
+                         <p> Have working knowledge of essential data analysis platforms (Excel, SQL, Tableau, R)
+                            and when to use them in the data lifecycle. Understand how to translate a business question into a data analysis exercise, incl.
+                            transforming, visualizing, and modeling data. Know how to distill findings into actionabletakeaways. Have a capstone project completed, to be
+                            shared on their resume.
+                             </p>
+
+                             <div class="comment-box">
+
+                                <h3>Leave a comment</h3>
+
+                                <form class="comment-form">
+                                    <input type="text" placeholder="Enter Name">
+                                    <input type="email" placeholder="Enter Email">
+                                    <textarea rows="5" placeholder="Your comment"></textarea>
+                                    <button type="submit" class="hero-btn red-btn">Post Comment</button>
+                                </form>
+                             </div>
+        </div>
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Business Analytics</span>
+                <span>21</span>
+            </div>
+
+            <div>
+                <span>Data Science</span>
+                <span>28</span>
+            </div>
+
+            <div>
+                <span>Machine Learning</span>
+                <span>25</span>
+            </div>
+
+            <div>
+                <span>Computer Science</span>
+                <span>30</span>
+            </div>
+
+            <div>
+                <span>Commerce</span>
+                <span>38</span>
+            </div>
+
+            <div>
+                <span>Marketing</span>
+                <span>35</span>
+            </div>
+
+        </div>
+
+
+    </div>
+</section>
+
+
+
+
+<!-- ------footer-------------- -->
+
+<section class="footer">
+    <h3><b>About Us</b></h3>
+    <p>just need to Sign in on learnandearn.guru many internships re there for u. 
+        lorem ipsum dolor sit amet , consectecular adipscing elit.<br>
+        lorem ipsum dolor sit amet , consectecular adipscing elit.</p>
+
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+            
+        </div>
+        <p>Made With <i class="fa fa-heart-o"></i> By learnandearn guru</p>
+</section>
+
+
+
+<!-- Javascript  for Toggle Menu-->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    
+    }
+
+</script>
+    
+</body>
+</html>
